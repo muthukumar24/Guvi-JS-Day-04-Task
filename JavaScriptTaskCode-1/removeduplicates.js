@@ -16,7 +16,7 @@ console.log(arrOfDuplicates(arrVals));
 // IIFE Function
 console.log("IIFE Function");
 
-(function removeDuplicates(arr) {
+(function (arr){
 	console.log(arr.filter((item,index) => arr.indexOf(item) === index));
 })
 (["apple", "mango", "Grapes", "apple", "orange", "mango", "mango", "Banana"]);
